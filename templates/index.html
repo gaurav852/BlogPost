@@ -1,0 +1,27 @@
+{% extends 'base.html'%} 
+{% block head %}
+<title>Home</title>
+{% endblock%} 
+{% block body %}
+<br>
+<h1>Home Page</h1>
+<br>
+<div class="bg-light p-5 rounded">
+  <div class="col-sm-8 mx-auto">
+    <h1>Welcome to BlogPost</h1>
+    <p>
+      Welcome to the BlogPost where you can post blogs and at the same time you can edit and delete the blog. Keep in this mind that this is prototype therefore your data can be lost.
+      But the fun fact is you can experience the blogging. Main feature of the website is that it is regularly maintained therefore you will keep on getting various update to this site which will enhace your that is user experience. Enjoy Blogging with BlogPost.
+    </p>
+    
+    <p>
+      <a
+        class="btn btn-primary"
+        href="/posts"
+        role="button"
+        >Go to BlogPost &raquo;</a
+      >
+    </p>
+  </div>
+</div>
+{% endblock %}
